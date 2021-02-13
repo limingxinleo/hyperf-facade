@@ -11,12 +11,12 @@ declare(strict_types=1);
  */
 namespace HFacade;
 
-use Hyperf\Redis\Redis as Indentifier;
+use Hyperf\Redis\Redis as RedisIdentifier;
 
 class Redis extends Facade
 {
     public static function getIdentifier(): string
     {
-        return Indentifier::class;
+        return RedisIdentifier::class;
     }
 }

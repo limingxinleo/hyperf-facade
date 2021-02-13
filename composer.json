@@ -7,7 +7,7 @@
         "hyperf",
         "facade"
     ],
-    "description": "",
+    "description": "Facade for Hyperf",
     "autoload": {
         "psr-4": {
             "HFacade\\": "src/"

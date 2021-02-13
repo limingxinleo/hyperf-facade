@@ -1,5 +1,5 @@
-# component-creater
+# Facade
 
 ```
-composer create-project hyperf/component-creater
+composer require limingxinleo/hyperf-facade
 ```

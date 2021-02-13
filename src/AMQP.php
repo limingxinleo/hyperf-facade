@@ -11,15 +11,15 @@ declare(strict_types=1);
  */
 namespace HFacade;
 
-use Hyperf\Redis\Redis as RedisIdentifier;
+use Hyperf\Amqp\Producer;
 
 /**
- * @mixin RedisIdentifier
+ * @mixin Producer
  */
-class Redis extends Facade
+class AMQP extends Facade
 {
     public static function getIdentifier(): string
     {
-        return RedisIdentifier::class;
+        return Producer::class;
     }
 }

@@ -19,7 +19,9 @@
         }
     },
     "require": {
-        "php": ">=7.3"
+        "php": ">=7.3",
+        "hyperf/utils": "^2.0",
+        "psr/container": "^1.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.14",
@@ -29,6 +31,9 @@
         "swoole/ide-helper": "dev-master",
         "swow/swow": "dev-develop",
         "symfony/var-dumper": "^5.1"
+    },
+    "suggests": {
+        "hyperf/redis": "Required to use redis facade. (^2.0)"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

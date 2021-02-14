@@ -11,21 +11,16 @@ declare(strict_types=1);
  */
 namespace HFacade;
 
-use Hyperf\AsyncQueue\Driver\DriverFactory;
-use Hyperf\AsyncQueue\JobInterface;
+use Hyperf\Cache\Cache as CacheIdentifier;
+use Psr\SimpleCache\CacheInterface;
 
 /**
- * @mixin DriverFactory
+ * @mixin CacheIdentifier
  */
-class AsyncQueue extends Facade
+class Cache extends Facade
 {
     public static function getIdentifier(): string
     {
-        return DriverFactory::class;
-    }
-
-    public static function push(JobInterface $job, int $delay = 0)
-    {
-        return static::get('default')->push($job, $delay);
+        return CacheInterface::class;
     }
 }

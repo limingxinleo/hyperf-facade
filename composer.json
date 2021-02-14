@@ -33,6 +33,7 @@
         "hyperf/event": "^2.0",
         "hyperf/filesystem": "^2.0",
         "hyperf/logger": "^2.0",
+        "hyperf/nsq": "^2.0",
         "hyperf/redis": "^2.0",
         "mockery/mockery": "^1.0",
         "phpstan/phpstan": "^0.12",
@@ -50,7 +51,8 @@
         "hyperf/di": "Required to use di or app facade. (^2.0)",
         "hyperf/event": "Required to use event dispatcher facade. (^2.0)",
         "hyperf/filesystem": "Required to use filesystem facade. (^2.0)",
-        "hyperf/logger": "Required to use log facade. (^2.0)"
+        "hyperf/logger": "Required to use log facade. (^2.0)",
+        "hyperf/nsq": "Required to use nsq facade. (^2.0)"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

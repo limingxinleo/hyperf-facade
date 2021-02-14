@@ -11,10 +11,11 @@ declare(strict_types=1);
  */
 namespace HFacade;
 
+use Hyperf\Amqp\Message\ProducerMessageInterface;
 use Hyperf\Amqp\Producer;
 
 /**
- * @mixin Producer
+ * @method static produce(ProducerMessageInterface $producerMessage, bool $confirm = false, int $timeout = 5)
  */
 class AMQP extends Facade
 {

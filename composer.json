@@ -32,6 +32,7 @@
         "hyperf/di": "^2.0",
         "hyperf/event": "^2.0",
         "hyperf/filesystem": "^2.0",
+        "hyperf/framework": "^2.0",
         "hyperf/logger": "^2.0",
         "hyperf/nsq": "^2.0",
         "hyperf/redis": "^2.0",

@@ -36,6 +36,7 @@
         "hyperf/nsq": "^2.0",
         "hyperf/redis": "^2.0",
         "hyperf/session": "^2.0",
+        "limingxinleo/happy-join-hyperf": "^1.0",
         "mockery/mockery": "^1.0",
         "phpstan/phpstan": "^0.12",
         "phpunit/phpunit": ">=7.0",

@@ -30,6 +30,7 @@
         "hyperf/cache": "^2.0",
         "hyperf/config": "^2.0",
         "hyperf/di": "^2.0",
+        "hyperf/event": "^2.0",
         "hyperf/redis": "^2.0",
         "mockery/mockery": "^1.0",
         "phpstan/phpstan": "^0.12",
@@ -42,7 +43,10 @@
         "hyperf/amqp": "Required to use AMQP facade. (^2.0)",
         "hyperf/async-queue": "Required to use async queue facade. (^2.0)",
         "hyperf/redis": "Required to use redis facade. (^2.0)",
-        "hyperf/cache": "Required to use cache facade. (^2.0)"
+        "hyperf/cache": "Required to use cache facade. (^2.0)",
+        "hyperf/config": "Required to use config facade. (^2.0)",
+        "hyperf/di": "Required to use di or app facade. (^2.0)",
+        "hyperf/event": "Required to use event dispatcher facade. (^2.0)"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

@@ -1,5 +1,7 @@
 # Facade
 
+## 安装
+
 ```
 composer require limingxinleo/hyperf-facade
 ```
@@ -14,7 +16,7 @@ use HFacade\Config;
 Config::get('xxx');
 ```
 
-当配置 `BootListener` 后，可以不带命名空间使用
+当配置 `BootListener` 到 `listeners.php` 后
 
 ```php
 <?php
@@ -24,6 +26,8 @@ return [
     BootListener::class
 ];
 ```
+
+便可以不带命名空间使用门面
 
 ```php
 <?php
